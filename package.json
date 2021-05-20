@@ -1,0 +1,27 @@
+{
+  "name": "youflix-backend",
+  "version": "1.0.0",
+  "description": "Backend for my Video-Library.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pratim-Kumar-Hazarika/YouFlix-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pratim-Kumar-Hazarika/YouFlix-Backend/issues"
+  },
+  "homepage": "https://github.com/Pratim-Kumar-Hazarika/YouFlix-Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.10"
+  }
+}
