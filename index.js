@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require('express');
 const cors = require('cors');
-const PORT = 3000;
+const PORT = 5000;
 const bodyParser = require('body-parser');
 const app = express();
 const {initalizeConnection} = require("./dbconnection/db.connection.js");
@@ -28,5 +28,5 @@ app.use(errorHandler);
 app.use(routeHandler);
 
 app.listen(PORT, () => {
-  console.log('server started');
+  console.log(`server started on port http://localhost:${PORT}/`);
 });
