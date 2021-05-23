@@ -1,6 +1,6 @@
 const videoData = require("../videodata/video-data");
-
 const { Video } = require("../models/video-model");
+
 
 async function sendDataToDb(){
   try{

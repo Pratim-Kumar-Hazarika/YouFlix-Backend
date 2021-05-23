@@ -1,6 +1,7 @@
 const { User } = require("../models/user-model");
 const {extend} = require("lodash")
 
+
 exports.extract_user_param = async(req,res,next,userId)=>{
   try{
     const user = await User.findById(userId)
