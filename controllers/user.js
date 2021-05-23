@@ -13,7 +13,6 @@ exports.extract_user_param = async(req,res,next,userId)=>{
     res.status(400).json({sucess:false, message:"user doesn't exist in the db.."})
   }
 }
-
 exports.all_users = async(req,res)=>{
   try{
     const users = await User.find({});

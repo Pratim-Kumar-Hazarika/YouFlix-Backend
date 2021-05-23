@@ -22,7 +22,8 @@ exports.get_all_videos = async(req,res)=>{
   }
 }
 
+
 exports.get_single_video = (req,res)=>{
   const {video } = req;
-  res.json({success:true, message:"Your video you wanted is ",video})
+  res.json({success:true, message:"Your video you wanted is ",video});
 }

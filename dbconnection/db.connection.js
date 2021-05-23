@@ -9,5 +9,4 @@ async function initalizeConnection(){
         console.log("Connection couldn't be established with database..")
       }
 }
-
 module.exports = { initalizeConnection }

@@ -1,9 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const UserController = require("../controllers/user")
-
 const { User } = require("../models/user-model");
-const {extend} = require("lodash")
 
 ///All USERS
 router.route("/")

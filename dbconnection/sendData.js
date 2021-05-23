@@ -14,5 +14,4 @@ async function sendDataToDb(){
     console.log("Videos not Saved to db...")
   }
 }
-
 module.exports = { sendDataToDb }
